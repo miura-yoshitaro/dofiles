@@ -1,0 +1,8 @@
+source ~/.vimperator/vimppm/vimppm/plugin/vimppm.js
+
+" h/l にタブ切り替えを割り当て
+map h <C-p>
+map l <C-n>
+
+" commandモードでIMEオフ
+style! -name=commandline-ime chrome://* #liberator-commandline-command input {ime-mode: inactive;}
