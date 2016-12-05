@@ -54,6 +54,7 @@ setopt interactive_comments
 
 alias dco='docker-compose'
 alias dcr='docker-compose run --rm'
+alias dce='docker-compose exec'
 alias do='docker'
 alias gco='git checkout'
 alias grm='git rebase master'
