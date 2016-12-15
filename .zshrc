@@ -14,6 +14,9 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
 eval `dircolors ~/dircolors/ansi-light`
 
+# autojump
+[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
+
 # 補完機能を有効にする
 autoload -Uz compinit
 compinit -u
