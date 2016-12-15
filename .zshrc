@@ -10,6 +10,10 @@ source ~/.iterm2_shell_integration.`basename $SHELL`
 # zsh-syntax-highlighting 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# dircolor
+export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
+eval `dircolors ~/dircolors/ansi-light`
+
 # 補完機能を有効にする
 autoload -Uz compinit
 compinit -u
