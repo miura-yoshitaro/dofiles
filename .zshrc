@@ -59,6 +59,7 @@ setopt ignore_eof
 # '#' 以降をコメントとして扱う
 setopt interactive_comments
 
+alias ls='ls --color=auto'
 alias dco='docker-compose'
 alias dcr='docker-compose run --rm'
 alias dce='docker-compose exec'
