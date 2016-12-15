@@ -71,3 +71,16 @@ alias gcm='gco master && git pull upstream master'
 alias gcd='gco develop && git pull upstream develop'
 alias gpo='git push origin'
 alias ree='rbenv exec'
+
+# === cool-peco init ===
+FPATH="$FPATH:/Users/miura_yoshitaro/cool-peco"
+autoload -Uz cool-peco
+cool-peco
+# ======================
+bindkey '^r' cool-peco-history # ctrl+r
+bindkey '^p' cool-peco-ps
+
+alias ff=cool-peco-filename-search
+alias gbb=cool-peco-git-checkout
+alias gll=cool-peco-git-log
+alias cg=cool-peco-ghq
