@@ -7,6 +7,9 @@ export GOPATH=$HOME/.go
 # Enable item2 shell integration
 source ~/.iterm2_shell_integration.`basename $SHELL`
 
+# zsh-syntax-highlighting 
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 # 補完機能を有効にする
 autoload -Uz compinit
 compinit -u
