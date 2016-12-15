@@ -1,7 +1,8 @@
 # 環境変数
 export LANG=ja_JP.UTF-8
-export PATH=/usr/local/bin:$PATH
+export PATH=$HOME/.go/bin:/usr/local/go/bin:/usr/local/bin:$PATH
 export SHELL=/bin/zsh
+export GOPATH=$HOME/.go
 
 # Enable item2 shell integration
 source ~/.iterm2_shell_integration.`basename $SHELL`
