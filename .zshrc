@@ -1,7 +1,3 @@
-# シンプルな zshrc
-# License : MIT
-# http://mollifier.mit-license.org/
-
 # 環境変数
 export LANG=ja_JP.UTF-8
 export PATH=/usr/local/bin:$PATH
